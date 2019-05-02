@@ -1,2 +1,3 @@
 # mycbr-sample-python
-Example Python Scripts for Creating a CBR model
+
+Example iPython notebooks that showcase the myCBR Rest API's functionalities.
