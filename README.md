@@ -1,4 +1,4 @@
-# mycbr-sample-python
+# Explanation how to run the API before you can run the script(s)
 
 Example iPython notebooks that showcase the myCBR Rest API's functionalities.
 
