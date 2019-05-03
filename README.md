@@ -46,3 +46,10 @@ The last step is starting the server with a specific project:
 java -DMYCBR.PROJECT.FILE=/absolute/path/to/project.prj -jar ./target/mycbr-rest-x.x-SNAPSHOT.jar 
 ```
 When using the commands, pleaes ensure that the correct software version are used instead of "x".
+
+## Example call for building the sdk, deploying it, building the Rest API and running it
+Assuming you're either in the mycbr-rest or mycbr-sdk folder:
+
+```
+cd ../mycbr-sdk ; mvn clean install ; cd ../mycbr-rest ; mvn install:install-file -Dfile=../mycbr-sdk/target/myCBR-3.3-SNAPSHOT.jar -DpomFile=../mycbr-sdk/pom.xml -DlocalRepositoryPath=lib/no/ntnu/mycbr/mycbr-sdk/ ; mvn clean install ; java -DMYCBR.PROJECT.FILE=/tmp/used_cars_flat.prj -jar ./target/mycbr-rest-1.0-SNAPSHOT.jar
+```
