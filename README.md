@@ -25,7 +25,7 @@ mvn clean install -DskipTests=True
 Please note that maven must be installed to build myCBR Rest. 
 With these commands you first go into the myCBR folder and then build the Rest.
 
-## Getting the myCBR Rest API
+## Deploying the myCBR Rest API
 
 Next you will have to download and build the Rest API. As the Rest API uses the myCBR SDK you need to install is using the following command: 
 ```
