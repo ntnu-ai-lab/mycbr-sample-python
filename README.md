@@ -15,6 +15,17 @@ Please note that maven must be installed to build myCBR.
 With these commands you first go into the myCBR folder and then build the SDK.
 
 ## Getting the myCBR Rest API
+You can clone the source code here: https://github.com/ntnu-ai-lab/mycbr-rest and build and deploy it using the following command using maven:
+```
+cd mycbr-rest 
+mvn clean install
+or
+mvn clean install -DskipTests=True
+```
+Please note that maven must be installed to build myCBR Rest. 
+With these commands you first go into the myCBR folder and then build the Rest.
+
+## Getting the myCBR Rest API
 
 Next you will have to download and build the Rest API. As the Rest API uses the myCBR SDK you need to install is using the following command: 
 ```
